@@ -4,7 +4,7 @@ import './message-entry.amcss!'
 export default class MessageEntry extends React.Component {
   componentWillMount() {
     this.messageActions = this.context.flux.getActions('message')
-    this.setValue("Greenpeace\nwill be rendered as a slab-type\nposter!\nStart a line with an '!'\n!to use the alternate typeface\nnow go and write something\nprofound\nand share it with the world!")
+    this.setValue("I hear you like\nbanners\nGreenpeace\n!so I made you this.\nYou're\nwelcome🖖")
   }
   handleChange(event) {
     this.setValue(event.target.value)

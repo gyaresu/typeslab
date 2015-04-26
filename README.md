@@ -1,7 +1,5 @@
-# [TypeSlab](http://typeslab.com/)
-> simple, shareable typographic posters
-
-Some good examples at <a target="_blank" href="https://twitter.com/typeslab">https://twitter.com/typeslab</a>
+# [Greenpeace Text Macro](http://twitter.gareth.website/)
+> Custom Twitter text images
 
 ## Developing
 
@@ -25,7 +23,7 @@ To build a minified, bundled version of the project, you will need to `npm insta
 
 # Related Projects
 
-All under development, all by me, and all super early. So send me issues and PRs!
+All under development, all by [Geelen](https://github.com/geelen/typeslab), and all super early. So send him issues and PRs!
 
 - [jspm-server](https://github.com/geelen/jspm-server) - live-reloading dev server for JSPM. If the plugin supports live-reloading, it will try to hot-swap files in. If not, it'll reload the page.
 - [plugin-postcss](https://github.com/geelen/plugin-postcss) - live-reloading PostCSS plugin generator. Used for the [amcss.js](https://github.com/geelen/typeslab/blob/master/src/amcss.js) plugin here in this project.
