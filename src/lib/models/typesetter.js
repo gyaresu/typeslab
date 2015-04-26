@@ -12,7 +12,7 @@ export default class Typesetter {
   setupCanvas() {
     this.canvas = document.createElement("canvas")
     this.canvas.width = this.width
-    this.canvas.height = 900
+    this.canvas.height = 1024
     this.canvas.style.backgroundColor = "palegoldenrod"
     this.ctx = this.canvas.getContext("2d")
   }

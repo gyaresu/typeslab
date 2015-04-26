@@ -41,7 +41,7 @@ export default class Output extends React.Component {
   }
 
   render() {
-    let text = 'typeslab.com',
+    let text = 'Greenpeace.org',
       canvasWidth = this.props.width + this.spacing * 2,
       canvasHeight = this.state.height + this.spacing
     //requestAnimationFrame(_ => requestAnimationFrame(this.calculateBottomPixels.bind(this, canvasHeight)))

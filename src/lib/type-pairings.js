@@ -68,5 +68,16 @@ export default [
       google: 'Lato',
       weight: 100
     }
+  },
+  {
+    main: {
+      google: 'Alfa Slab One',
+      weight: 300,
+      caps: true
+    },
+    alt: {
+      google: 'Lato',
+      weight: 100
+    }
   }
-]
+];
