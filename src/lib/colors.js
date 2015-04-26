@@ -1,4 +1,9 @@
 export default [{
+  name: "Greenpeace",
+  foreground: 'rgb(102,204,0)',
+  background: 'white'
+},
+{
   name: "Default",
   foreground: 'black',
   background: 'white'
@@ -42,9 +47,5 @@ export default [{
   name: "Neo",
   foreground: 'rgb(32,255,30)',
   background: 'black'
-},  {
-  name: "Greenpeace",
-  foreground: 'rgb(102,204,0)',
-  background: 'white'
 }
 ];

@@ -24,7 +24,7 @@ export default class Share extends React.Component {
       method: 'post',
       body: data,
       headers: {
-        "Authorization": "Client-ID dc208153560e2ef"
+        "Authorization": "Client-ID ef69bbbc7f3221c"
       }
     }).then(response => response.json())
       .then(json => {

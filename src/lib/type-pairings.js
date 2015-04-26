@@ -1,6 +1,18 @@
 export default [
   {
     main: {
+      google: 'Rock Salt',
+      weight: 900,
+      caps: true
+    },
+    alt: {
+      google: 'Raleway',
+      weight: 300,
+      caps: false
+    }
+  },
+  {
+    main: {
       local: ['Avenir Next', 'Arial Black', 'sans-serif'],
       weight: 900,
       caps: true
@@ -63,17 +75,6 @@ export default [
       weight: 900,
       caps: true,
       italic: true
-    },
-    alt: {
-      google: 'Lato',
-      weight: 100
-    }
-  },
-  {
-    main: {
-      google: 'Alfa Slab One',
-      weight: 300,
-      caps: true
     },
     alt: {
       google: 'Lato',

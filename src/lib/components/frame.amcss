@@ -27,6 +27,7 @@
     &::first-letter {
       font-size: 1.4em;
       vertical-align: text-top;
+      padding:5px;
     }
   }
 }

@@ -10,7 +10,7 @@ export default class Frame extends React.Component {
     return <div className="Frame">
       <header>
         <h1 className="Frame-Logo">
-          <span>Type</span><span>Slab</span>
+          <span>Greenpeace</span><span>Text</span><span>Macro</span>
         </h1>
       </header>
       <main>
@@ -20,9 +20,9 @@ export default class Frame extends React.Component {
         </FluxComponent>
       </main>
       <footer>
-        <p>Made with &lt;3 by <a href="http://glenmaddern.com" target="_blank">Glen Maddern</a></p>
+        <p>Code adapted by <a href="http://twitter.com/gyaresu">Gareth</a> and available on <a target="_blank" href="https://github.com/gyaresu/typeslab">GitHub</a></p>
         {' '}
-        <p>View source <a target="_blank" href="https://github.com/geelen/typeslab">on GitHub</a></p>
+        <p>Original creation by <a href="http://glenmaddern.com" target="_blank">Glen Maddern</a></p>
       </footer>
     </div>
   }
