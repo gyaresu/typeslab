@@ -8,7 +8,7 @@ import './controls.amcss!'
 export default class Controls extends React.Component {
   render() {
     return <div className="Controls">
-      <h2>Enter your message:</h2>
+      <h2>Enter your message: (Emoji work in some browsers)</h2>
       <MessageEntry />
       <h2>Pick your type pairing:</h2>
       <FluxComponent connectToStores='fonts'>

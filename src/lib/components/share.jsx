@@ -19,7 +19,7 @@ export default class Share extends React.Component {
     let data = new FormData()
     data.append("image", this.props.canvas.toDataURL().split(',')[1])
     data.append("type", "base64")
-    data.append("description", "Made with http://typeslab.com")
+    data.append("description", "Made with http://twitter.gareth.website")
     fetch('https://api.imgur.com/3/image', {
       method: 'post',
       body: data,

@@ -2,6 +2,10 @@ export default [{
   name: "Greenpeace",
   foreground: 'rgb(102,204,0)',
   background: 'white'
+},{
+  name: "Ironic",
+  foreground: 'rgb(102,204,0)',
+  background: 'rgb(255,237,0)'
 },
 {
   name: "Default",
