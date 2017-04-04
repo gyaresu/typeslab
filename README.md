@@ -1,4 +1,4 @@
-# [Greenpeace Text Macro](http://twitter.gareth.website/)
+# [Greenpeace Text Macro](http://greenpeace.surge.sh)
 > Custom Twitter text images
 
 ## Developing
